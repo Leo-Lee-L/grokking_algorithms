@@ -37,4 +37,4 @@ int main(void) {
 	}
 
 	return 0;
-}
+}//TODO:快速排序战略性放弃！
