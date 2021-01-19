@@ -20,7 +20,7 @@ int findSmallest(int *arr) {
 
 int *selectionSort(int *arr) {
 	// Create new Array
-	int *newArr = (int *)malloc(SIZE * sizeof(int));
+	int *newArr = (int *)malloc(SIZE * sizeof(int));//TODO：这个malloc（）能不能替换一下。
 	for (int i = 0; i < SIZE; i++) {
 		int smallest = findSmallest(arr);
 		newArr[i] = arr[smallest];
